@@ -15,3 +15,15 @@
 * web sever
 * 本地代码构建
 * 实用工具的开发
+
+4. 环境
+* CommonJS(nodejs模块管理的规范)
+* global
+* process
+
+5. require
+* /表示绝对路径，./表示对于当前文件的
+* 支持js、json、node拓展名，不写名依次尝试
+* 不写路径测认为是build-in模块或者node_modules内的第三方模块
+* module被加载的时候执行，加载之后缓存
+* 一旦出现某个模块被循环加载，就只输出已经执行的部分，还未执行的部分不会输出
