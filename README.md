@@ -27,3 +27,9 @@
 * 不写路径测认为是build-in模块或者node_modules内的第三方模块
 * module被加载的时候执行，加载之后缓存
 * 一旦出现某个模块被循环加载，就只输出已经执行的部分，还未执行的部分不会输出
+
+6. exports与module.exports
+* exports = module.exports,但是不可以修改exports的指向
+
+7. global
+* commonJS、Buffer、process、console、timer
