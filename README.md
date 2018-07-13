@@ -33,3 +33,8 @@
 
 7. global
 * commonJS、Buffer、process、console、timer
+
+8. precess(进程)
+
+9. 调试
+* inspector
